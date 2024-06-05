@@ -25,8 +25,6 @@
                     
                     <form action="{{ route('absensi.destroy', $absensi->id) }}" method="POST" class="d-inline">
                         @csrf
-                        @method('DELETE')
-                        <button type="submit" class="btn btn-danger">Hapus</button>
                     </form>
                 </td>
             </tr>
